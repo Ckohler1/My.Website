@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merienda:wght@400;700&display=swap" rel="stylesheet">
-    </head>
-    
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+</head>
 <body>
-    <header>
-        <h1>Colton Kohler</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.png" alt="Logo" class="header-logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="intro">
-        <img src="images/profile.png" alt="Profile Picture">
-        <div class="text">
-            <h2>Welcome!</h2>
-            <p>
-                My name is Colton. I'm a software developer passionate about creating clean, efficient, and user-friendly applications.
-                Learn more about me <a href="about.html" class="paragraph-link">Here</a> and explore my work and experience
-                <a href="projects.html" class="paragraph-link">Here</a>.
-            </p>
-        </div>
-    </section>
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h2>Crafting Digital Experiences</h2>
+      <p>I'm Colton – a passionate software developer dedicated to building innovative and user‑friendly applications.</p>
+      <a href="projects.html" class="btn">See My Work</a>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Colton Kohler</p>
-    </footer>
+  <section class="content-section">
+    <div class="content-text">
+      <h2>Welcome</h2>
+      <p>
+        Discover my portfolio and explore my journey in the world of software development.
+        Creativity, innovation, and dedication drive my projects every day.
+      </p>
+    </div>
+    <div class="content-image">
+      <img src="images/profile.png" alt="Profile Picture">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Colton Kohler. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-

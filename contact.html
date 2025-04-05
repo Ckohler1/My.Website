@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me | Colton Kohler</title>
+  <title>Contact | Colton Kohler</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merienda:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -15,9 +15,9 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About Me</a></li>
+        <li><a href="about.html">About Me</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -25,20 +25,26 @@
   <section class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h2>About Me</h2>
-      <p>Learn about my journey and skills.</p>
+      <h2>Contact</h2>
+      <p>Get in touch with me.</p>
     </div>
   </section>
 
   <section class="content-section">
     <div class="content-text">
-      <h2>My Journey</h2>
+      <h2>Let's Connect</h2>
       <p>
-        [Insert details about your background, skills, and experiences here. This is your story – share what drives you in the world of software development.]
+        If you have any questions or just want to say hello, feel free to drop me a message.
       </p>
+      <form action="#" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
     </div>
     <div class="content-image">
-      <img src="images/profile.png" alt="Profile Picture">
+      <img src="images/profile.png" alt="Contact Image">
     </div>
   </section>
 
